@@ -11,6 +11,7 @@ This tool currently has three features.
 ## What software it needs 
 * docker, docker-compose
 * node.js v10.12.0
+* vim
 
 ## Supporting environment
 * Ubuntu ( bash )
@@ -33,4 +34,41 @@ alias wscd="cd $MANAGE_PROJECTS_PATH/projects/\`ws current\`/workspace"
 ```
 cd $MANAGE_PROJECTS_PATH
 npm install
+```
+
+## How to use
+
+### create project and workspace
+```
+ws create {project name}
+```
+
+### set current project
+```
+ws set {project name}
+```
+
+### reset current project
+```
+ws reset
+```
+
+### check project list
+```
+ws list
+```
+
+### check current project
+```
+ws current
+```
+
+### open websites
+```
+ws open-websites
+```
+
+### edit websites what you want to open
+```
+ws edit-websites
 ```
