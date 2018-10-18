@@ -66,3 +66,8 @@ ws current
 ```
 ws open-websites
 ```
+
+### refresh environment
+```
+ws refresh
+```
