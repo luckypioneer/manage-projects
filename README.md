@@ -11,7 +11,6 @@ This tool currently has three features.
 ## What software it needs 
 * docker, docker-compose
 * node.js v10.12.0
-* vim
 
 ## Supporting environment
 * Ubuntu ( bash )
