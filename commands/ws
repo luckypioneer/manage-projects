@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd $MANAGE_PROJECTS_PATH
+node main.js $@

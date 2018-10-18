@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd $MANAGE_PROJECTS_PATH/projects/`cat $MANAGE_PROJECTS_PATH/current-project`
+docker-compose up -d
