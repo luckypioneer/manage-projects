@@ -28,3 +28,9 @@ if [[ $project != "" ]]; then
 fi
 alias wscd="cd $MANAGE_PROJECTS_PATH/projects/\`ws current\`/workspace"
 ```
+
+2. npm install
+```
+cd $MANAGE_PROJECTS_PATH
+npm install
+```
