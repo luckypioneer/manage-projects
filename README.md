@@ -27,7 +27,6 @@ if [[ $project != "" ]]; then
   cd $MANAGE_PROJECTS_PATH/projects/$project/workspace
   ws open-websites > /dev/null 2>&1
 fi
-alias wscd="cd $MANAGE_PROJECTS_PATH/projects/\`ws current\`/workspace"
 ```
 
 2. npm install

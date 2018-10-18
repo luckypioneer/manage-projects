@@ -1,4 +1,8 @@
 #!/bin/sh
 
+if [ $1 = "refresh" ]; then
+  bash 
+  exit
+fi
 cd $MANAGE_PROJECTS_PATH
 node main.js $@
