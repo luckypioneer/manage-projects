@@ -24,6 +24,7 @@ export MANAGE_PROJECTS_PATH=/path/to/the/repository
 export PATH=$PATH:$MANAGE_PROJECTS_PATH/commands
 project=`ws current`
 if [[ $project != "" ]]; then
+  source $MANAGE_PROJECTS_PATH/projects/$project/bashrc
   cd $MANAGE_PROJECTS_PATH/projects/$project/workspace
   ws open-websites > /dev/null 2>&1
 fi
