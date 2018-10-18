@@ -67,8 +67,3 @@ ws current
 ```
 ws open-websites
 ```
-
-### edit websites what you want to open
-```
-ws edit-websites
-```

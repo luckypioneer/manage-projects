@@ -50,10 +50,4 @@ if (command == "open-websites") {
   return;
 }
 
-if (command == "edit-websites") {
-	const editWebsites = require("./editWebsites.js");
-	editWebsites();
-  return;
-}
-
 console.error("The command is not valid");
